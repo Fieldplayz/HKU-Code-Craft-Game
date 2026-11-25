@@ -15,8 +15,6 @@ public class WaveSpawner : MonoBehaviour
 {
     public Wave[] waves;
     public Transform[] spawnPoints;
-    //public Animator anim;
-    //public Text waveName;
 
     private Wave currentWave;
     private int currentWaveNumber;
