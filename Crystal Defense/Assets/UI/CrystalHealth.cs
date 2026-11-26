@@ -60,10 +60,10 @@ public class CrystalHealth : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("Collision met : " + other);
+        
         if (other.gameObject.CompareTag("Enemy") && isDamageable && currentHealth > 0)
         {
-            Debug.Log("TakeDamge IEnumerator;");
+            
             StartCoroutine(TakeDamage(enemyDamageValue));
         }
     }
